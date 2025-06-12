@@ -1,0 +1,12 @@
+CREATE TABLE Booking (
+    BookingID INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    GuestID INT NOT NULL,
+    AdminID INT NOT NULL,
+    RoomID INT NOT NULL,
+    CheckInDate DATE NOT NULL,
+    CheckOutDate DATE NOT NULL,
+    Status VARCHAR(40) NOT NULL,
+    FOREIGN KEY (GuestID) REFERENCES Guest(GuestID),
+    FOREIGN KEY (AdminID) REFERENCES Administrator(AdminID),
+    FOREIGN KEY (RoomID) REFERENCES Room(RoomID)
+);
