@@ -1,0 +1,10 @@
+Rev's Note:
+
+1. Added the Initial Database as of now June 12, 2025.
+
+2. Added the Notes folder for any notes by the developers if they want to drop in some reminders.
+
+3. Added a Connection for the Database in the main.py file and organized it for future use.
+
+4. Added a class folder under main folder to practice Object Oriented Programming, 
+	because some parts of the program are worth separating from the main file for maintainability and readability.

@@ -1,0 +1,9 @@
+CREATE TABLE Availability
+(
+    AvailabilityID INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    RoomID INT NOT NULL,
+    Status VARCHAR(40) NOT NULL,
+    StartDate DATE NOT NULL,
+    EndDate DATE NOT NULL,
+    FOREIGN KEY(RoomID) REFERENCES Room(RoomID)
+);
