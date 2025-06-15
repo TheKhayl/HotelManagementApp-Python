@@ -28,7 +28,7 @@ class checkout:
                          font=("times new roman", 50, "bold"))
         lbltitle.pack(pady=0)
 
-        -
+
         title_button_frame = Frame(title_frame, bg="black")
         title_button_frame.pack(side=BOTTOM, fill=X)
 
