@@ -1,0 +1,16 @@
+Rev's Note:
+
+1. Use Python 3.12, not 3.11 as the Python Interpreter in Pycharm.
+
+In Pycharm:
+1. Go to File -> Settings
+2. Project: PAGE_MAIN.py -> Python Interpreter
+3. Add Interpreter (IF YOU ARE NOT USING PYTHON 3.12)
+4. Add Local Interpreter -> Poetry Environment -> Existing environment and then click the "..." on the side.
+5. Find the python.exe file in your Python 3.12 Folder or where your Python 3.12 is located at.
+6. Press OK.
+
+Installing tkcalendar and pillow:
+1. Press the + sign in Python Interpreter.
+2. Search for tkcalendar and Install.
+3. Search for pillow and Install.
